@@ -99,14 +99,24 @@ The repository will contain the Power BI project file, dashboard screenshots, an
 E-Commerce-Sales-Dashboard-PowerBI/
 │
 ├── README.md
-├── E-Commerce-Sales-Dashboard.pbix
+│
+├── powerbi/
+│   └── E-Commerce-Sales-Dashboard.pbix
+│
 ├── dataset/
-│   └── e_commerce_sales_data.csv
+│   ├── raw/
+│   │   └── e_commerce_sales_dirty.csv
+│   │
+│   └── cleaned/
+│       └── e_commerce_sales_cleaned.csv
+│
 ├── screenshots/
-│   ├── executive-sales-overview.png
-│   ├── customer-analysis.png
-│   ├── product-performance.png
-│   └── transaction-drillthrough.png
+│   ├── 1 - executive-sales-overview.png
+│   ├── 2 - customer-analysis.png
+│   ├── 3 - product-performance.png
+│   ├── 4 - transaction-drillthrough.png
+│   └── data-model-relationships.png
+│
 └── report/
     └── E-Commerce-Sales-Dashboard-Report.pdf
 ```
